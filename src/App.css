@@ -1,0 +1,37 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+section {
+  background-color: #f3ebe4;
+  
+}
+section .info{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+section .description{
+  margin-top: 2.5%;
+  
+}
+li .nav-link{
+ color: coral;
+ font-weight: bold;
+ font-size: 25px;
+ margin-left: 20px;
+ justify-content: center;
+}
+li .nav-link:hover{
+  color: orange;
+}
+body section img{
+  margin-left: 5%;
+}
